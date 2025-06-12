@@ -24,3 +24,13 @@ cargo run --example non-blocking
 ```rust
 cargo run --example non-blocking-single
 ```
+
+### Counter with thread
+```rust
+cargo run --example counter-thread
+```
+
+### Counter with tokio
+```rust
+cargo run --example counter-tokio
+```
