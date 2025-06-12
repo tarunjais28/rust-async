@@ -1,0 +1,10 @@
+[package]
+name = "event-handler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.45.1", features = ["full"] }
+rand = { version = "0.9.1", features = ["thread_rng"] }
+hex = "0.4.3"
+colored = "3.0.0"
